@@ -1,8 +1,8 @@
 # Brand
-PRODUCT_BRAND ?= simpleaosp
+PRODUCT_BRAND ?= frank
 
 # Local path for prebuilts
-LOCAL_PATH:= vendor/simpleaosp/prebuilts/common/system
+LOCAL_PATH:= vendor/frank/prebuilts/common/system
 
 # Common build prop overrides 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -14,16 +14,20 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.setupwizard.enterprise_mode=1 \
+    ro.setupwizard.network_required=false \
+    ro.setupwizard.gservices_delay=-1 \
     keyguard.no_require_sim=true \
     ro.facelock.black_timeout=400 \
     ro.facelock.det_timeout=1500 \
     ro.facelock.rec_timeout=2500 \
     ro.facelock.lively_timeout=2500 \
     ro.facelock.est_max_time=600 \
-    ro.facelock.use_intro_anim=false
+    ro.facelock.use_intro_anim=false \
+    ro.ril.enable.amr.wideband=1 \
+    net.tethering.noprovisioning=true 
 
 # Common overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
 
 # Needed Packages
 PRODUCT_PACKAGES += Launcher3
