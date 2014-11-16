@@ -26,6 +26,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
     ro.mod.display.version=Frank-1.0-Frank-all-new-and-improved
+ 
+# To only build ART, use "runtime_libart_default"
+# To use Dalvik but also include ART, use "runtime_libdvm_default runtime_libart"
+# To use ART but also include Dalvik, use "runtime_libart_default runtime_libdvm"
+OVERRIDE_RUNTIMES:=runtime_libart_default runtime_libdvm
     
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
