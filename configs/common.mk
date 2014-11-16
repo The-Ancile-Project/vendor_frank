@@ -24,8 +24,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.est_max_time=600 \
     ro.facelock.use_intro_anim=false \
     ro.ril.enable.amr.wideband=1 \
-    net.tethering.noprovisioning=true 
-
+    net.tethering.noprovisioning=true \
+    ro.mod.display.version=Frank-1.0-Frank-all-new-and-improved
+    
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
 
