@@ -38,7 +38,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
 # Needed Packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    SEAndroidAdmin
+    SEAdmin
 
 # Proprietary latinime lib needed for swyping
 PRODUCT_COPY_FILES += \
