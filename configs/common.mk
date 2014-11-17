@@ -25,7 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.use_intro_anim=false \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
-    ro.mod.display.version=Frank-1.0-Frankened
+    ro.mod.display.version=Frank-should-be-scared-.999
  
 # To only build ART, use "runtime_libart_default"
 # To use Dalvik but also include ART, use "runtime_libdvm_default runtime_libart"
