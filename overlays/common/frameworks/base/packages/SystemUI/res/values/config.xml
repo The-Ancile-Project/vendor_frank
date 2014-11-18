@@ -20,9 +20,20 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
-    <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
+     <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        wifi,bt,silent,cell,airplane,rotation,flashlight,location,cast,hotspot
+    </string>
+     <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
+    <bool name="config_show4GForLTE">false</bool>
+     <!-- Set to true to enable the user switcher on the keyguard. -->
+    <bool name="config_keyguardUserSwitcher">true</bool>
+     <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
     <bool name="doze_display_state_supported">true</bool>
-
+        <!-- Doze: should the significant motion sensor be used as a pulse signal? -->
+    <bool name="doze_pulse_on_significant_motion">true</bool>
     <!-- Doze: should the pickup sensor be used as a pulse signal? -->
     <bool name="doze_pulse_on_pick_up">true</bool>
+    <!-- Doze: should notifications be used as a pulse signal? -->
+    <bool name="doze_pulse_on_notifications">true</bool>
 </resources>
