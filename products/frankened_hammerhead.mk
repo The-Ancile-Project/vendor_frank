@@ -13,3 +13,7 @@ PRODUCT_MANUFACTURER := LGE
 
 # Build prop fingerprint overrides
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="hammerhead" BUILD_FINGERPRINT="google/hammerhead/hammerhead:5.0/LRX21Q/1570415:user/release-keys" PRIVATE_BUILD_DESC="hammerhead-user 5.0 LRX21T 1570415 release-keys"
+
+PRODUCT_COPY_FILES += \
+    vendor/frank/prebuilt/etc/apns-conf.xml \
+    vendor/frank/prebuilt/etc/apns-conf-cdma.xml
