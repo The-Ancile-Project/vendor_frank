@@ -130,3 +130,8 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/media/audio/ui/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg \
         $(LOCAL_PATH)/media/audio/ui/VideoStop.ogg:system/media/audio/ui/VideoStop.ogg \
         $(LOCAL_PATH)/media/audio/ui/WirelessChargingStarted.ogg:system/media/audio/ui/WirelessChargingStarted.ogg
+        
+# APNs
+PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/etc/apns-conf-cdma.xml:/etc/apns-conf-cdma.xml \
+        $(LOCAL_PATH)/etc/apns-conf.xml:/etc/apns-conf.xml 
