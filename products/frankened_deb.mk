@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for flo
-$(call inherit-product, device/asus/flo/aosp_deb.mk)
+$(call inherit-product, device/asus/deb/aosp_deb.mk)
 
 # Inherit common product files
 $(call inherit-product, vendor/frank/configs/common.mk)

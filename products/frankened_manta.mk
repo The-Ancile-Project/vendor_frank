@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for mako
-$(call inherit-product, device/lge/mako/full_manta.mk)
+$(call inherit-product, device/samsung/manta/full_manta.mk)
 
 # Inherit common product files
 $(call inherit-product, vendor/frank/configs/common.mk)
