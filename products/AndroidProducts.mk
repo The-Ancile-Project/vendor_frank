@@ -1,4 +1,5 @@
 PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/frankened_deb.mk \
     $(LOCAL_DIR)/frankened_flo.mk \
     $(LOCAL_DIR)/frankened_grouper.mk \
     $(LOCAL_DIR)/frankened_hammerhead.mk \

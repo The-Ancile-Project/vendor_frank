@@ -1,3 +1,4 @@
+add_lunch_combo frankened_deb-userdebug
 add_lunch_combo frankened_flo-userdebug
 add_lunch_combo frankened_grouper-userdebug
 add_lunch_combo frankened_hammerhead-userdebug
