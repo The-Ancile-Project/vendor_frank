@@ -25,7 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.use_intro_anim=false \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
-    ro.mod.display.version=Frankened-Seriously-another-9-.99999.9
+    ro.mod.display.version=Frankened-pre-release-test-4
  
 # To only build ART, use "runtime_libart_default"
 # To use Dalvik but also include ART, use "runtime_libdvm_default runtime_libart"
@@ -37,8 +37,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
 
 # Needed Packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
-    SEAdmin
+    Launcher3 
 
 # Proprietary latinime lib needed for swyping
 PRODUCT_COPY_FILES += \
