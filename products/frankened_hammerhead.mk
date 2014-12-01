@@ -16,6 +16,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="hammerhead" BUILD_FINGERPRINT="goo
 
 PRODUCT_PACKAGES += \
      TimeService \
-     qcrilmsgtunnel \
      OmaDmclient  \
      shutdownlistener
