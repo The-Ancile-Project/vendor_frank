@@ -25,6 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.use_intro_anim=false \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
+    persist.sys.dun.override=0 \
     ro.mod.display.version=Frankened-pre-release-test-4
  
 # To only build ART, use "runtime_libart_default"
@@ -37,7 +38,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
 
 # Needed Packages
 PRODUCT_PACKAGES += \
-    Launcher3 
+    Launcher3 \
+    libsepol
 
 # Proprietary latinime lib needed for swyping
 PRODUCT_COPY_FILES += \
