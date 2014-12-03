@@ -5,7 +5,7 @@ $(call inherit-product, device/lge/mako/full_mako.mk)
 $(call inherit-product, vendor/frank/configs/common.mk)
 
 # Setup device specific product configuration
-PRODUCT_NAME := frankened_mako
+PRODUCT_NAME := frank-n4
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := mako
 PRODUCT_MODEL := Nexus 4

@@ -5,7 +5,7 @@ $(call inherit-product, device/asus/deb/aosp_deb.mk)
 $(call inherit-product, vendor/frank/configs/common.mk)
 
 # Setup device specific product configuration
-PRODUCT_NAME := frankened_deb
+PRODUCT_NAME := frank-n7-2013-lte
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := deb
 PRODUCT_MODEL := Nexus 7 LTE

@@ -5,7 +5,7 @@ $(call inherit-product, device/asus/tilapia/full_tilapia.mk)
 $(call inherit-product, vendor/frank/configs/common.mk)
 
 # Setup device specific product configuration
-PRODUCT_NAME := frankened_tilapia
+PRODUCT_NAME := frank-n7-2012-mobile
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := tilapia
 PRODUCT_MODEL := Nexus 7 Mobile

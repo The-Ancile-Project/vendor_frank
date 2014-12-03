@@ -5,7 +5,7 @@ $(call inherit-product, device/asus/grouper/full_grouper.mk)
 $(call inherit-product, vendor/frank/configs/common.mk)
 
 # Setup device specific product configuration
-PRODUCT_NAME := frankened_grouper
+PRODUCT_NAME := frank-n7-2012-wifi
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := grouper
 PRODUCT_MODEL := Nexus 7 WiFi

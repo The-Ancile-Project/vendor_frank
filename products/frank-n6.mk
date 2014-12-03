@@ -5,7 +5,7 @@ $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 $(call inherit-product, vendor/frank/configs/common.mk)
 
 # Setup device specific product configuration
-PRODUCT_NAME := frankened_shamu
+PRODUCT_NAME := frank-n6
 PRODUCT_DEVICE := shamu
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Shamu

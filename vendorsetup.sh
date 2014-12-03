@@ -1,9 +1,9 @@
-add_lunch_combo frankened_deb-userdebug
-add_lunch_combo frankened_flo-userdebug
-add_lunch_combo frankened_grouper-userdebug
-add_lunch_combo frankened_hammerhead-userdebug
-add_lunch_combo frankened_mako-userdebug
-add_lunch_combo frankened_manta-userdebug
-add_lunch_combo frankened_shamu-userdebug
-add_lunch_combo frankened_tilapia-userdebug
+add_lunch_combo frank-n4-userdebug
+add_lunch_combo frank-n5-userdebug
+add_lunch_combo frank-n6-userdebug
+add_lunch_combo frank-n7-2012-mobile-userdebug
+add_lunch_combo frank-n7-2012-wifi-userdebug
+add_lunch_combo frank-n7-2013-lte-userdebug
+add_lunch_combo frank-n7-2013-wifi-userdebug
+add_lunch_combo frank-10-userdebug
 
