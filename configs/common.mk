@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
-    ro.mod.display.version=Frankened-pre-release-test-4
+    ro.mod.display.version=pre-release-test-5
  
 # To only build ART, use "runtime_libart_default"
 # To use Dalvik but also include ART, use "runtime_libdvm_default runtime_libart"
