@@ -5,7 +5,7 @@ $(call inherit-product, device/asus/flo/full_flo.mk)
 $(call inherit-product, vendor/frank/configs/common.mk)
 
 # Setup device specific product configuration
-PRODUCT_NAME := frank-n7-2013-wifi
+PRODUCT_NAME := frank_n7_2013_wifi
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := flo
 PRODUCT_MODEL := Nexus 7
