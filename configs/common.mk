@@ -136,3 +136,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/etc/apns-conf-cdma.xml:/etc/apns-conf-cdma.xml \
         $(LOCAL_PATH)/etc/apns-conf.xml:/etc/apns-conf.xml 
+        
+        
+#Setools Android port http://forum.xda-developers.com/android/software/setools-android-sepolicy-inject-t2977563
+PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/xbin/seinfo:system/xbin/seinfo \
+        $(LOCAL_PATH)/xbin/sesearch:system/xbin/sesearch \
+        $(LOCAL_PATH)/xbin/sepolicy-inject:system/xbin/sepolicy-inject \
+
+        
