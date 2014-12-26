@@ -5,5 +5,6 @@ add_lunch_combo frank_n7_2012_mobile-userdebug
 add_lunch_combo frank_n7_2012_wifi-userdebug
 add_lunch_combo frank_n7_2013_lte-userdebug
 add_lunch_combo frank_n7_2013_wifi-userdebug
+add_lunch_combo frank_9-userdebug
 add_lunch_combo frank_10-userdebug
 
