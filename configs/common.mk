@@ -137,6 +137,13 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/etc/apns-conf-cdma.xml:/etc/apns-conf-cdma.xml \
         $(LOCAL_PATH)/etc/apns-conf.xml:/etc/apns-conf.xml 
         
+# DRM
+PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/vendor/lib/libwvdrm_L1.so:/vendor/lib/libwvdrm_L1.so \
+        $(LOCAL_PATH)/vendor/lib/libwvm.so:/vendor/lib/libwvm.so \
+        $(LOCAL_PATH)/vendor/lib/libWVphoneAPI.so:/vendor/lib/libWVphoneAPI.so \
+        $(LOCAL_PATH)/vendor/lib/libWVStreamControlAPI_L1.so:/vendor/lib/libWVStreamControlAPI_L1.so \
+        $(LOCAL_PATH)/vendor/lib/drm/libdrmwvmplugin.so:/vendor/lib/drm/libdrmwvmplugin.so \
         
 #Setools Android port http://forum.xda-developers.com/android/software/setools-android-sepolicy-inject-t2977563
 PRODUCT_COPY_FILES += \
