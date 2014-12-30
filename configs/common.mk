@@ -26,13 +26,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
-    ro.mod.display.version=pre-release-test-7
- 
-# To only build ART, use "runtime_libart_default"
-# To use Dalvik but also include ART, use "runtime_libdvm_default runtime_libart"
-# To use ART but also include Dalvik, use "runtime_libart_default runtime_libdvm"
-#OVERRIDE_RUNTIMES:=runtime_libart_default runtime_libdvm
-    
+    ro.mod.display.version=pre-release-test-7 \
+    drm.service.enabled=true \
+     
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
 
@@ -134,8 +130,8 @@ PRODUCT_COPY_FILES += \
         
 # APNs
 PRODUCT_COPY_FILES += \
-        $(LOCAL_PATH)/etc/apns-conf-cdma.xml:/etc/apns-conf-cdma.xml \
-        $(LOCAL_PATH)/etc/apns-conf.xml:/etc/apns-conf.xml 
+        $(LOCAL_PATH)/etc/apns-conf-cdma.xml:/system/etc/apns-conf-cdma.xml \
+        $(LOCAL_PATH)/etc/apns-conf.xml:/system/etc/apns-conf.xml 
         
 # DRM
 PRODUCT_COPY_FILES += \
