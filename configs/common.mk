@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
-    ro.mod.display.version=pre-release-test-7 \
+    ro.mod.display.version=pre-release-test-8 \
     drm.service.enabled=true \
      
 # Common overlays
@@ -36,10 +36,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
 PRODUCT_PACKAGES += \
     Launcher3 \
     libsepol
-
-# Proprietary latinime lib needed for swyping
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 # Enable sip+voip on all targets
 PRODUCT_COPY_FILES += \
@@ -137,6 +133,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         $(LOCAL_PATH)/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+        $(LOCAL_PATH)/lib/drm/libfwdlockengine.so:/system/lib/drm/libfwdlockengine.so \
+        $(LOCAL_PATH)/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/libdrmclearkeyplugin.so \
         $(LOCAL_PATH)/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \
         $(LOCAL_PATH)/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         $(LOCAL_PATH)/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
