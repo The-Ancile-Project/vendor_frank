@@ -13,3 +13,10 @@ PRODUCT_MANUFACTURER := ASUS
 
 # Build prop fingerprint overrides
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="razorg" BUILD_FINGERPRINT="google/razorg/deb:5.0.2/LRX22G/1649326:user/release-keys" PRIVATE_BUILD_DESC="razorg-user 5.0.2 LRX22G 1649326 release-keys"
+
+#fmas n7 specific 
+PRODUCT_PROPERTY_OVERRIDES += \
+   fmas.spkr_6ch=35,20,110  \
+   fmas.spkr_2ch=35,25  \
+   fmas.spkr_angles=10  \
+   fmas.spkr_sgain=0  \
