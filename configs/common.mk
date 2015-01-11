@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
+# Proprietary latinime lib needed for swyping
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    
 # Blobs for media effects
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
