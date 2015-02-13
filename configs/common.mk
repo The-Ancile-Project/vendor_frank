@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
-    ro.mod.display.version=12-release-the-kraken \
+    ro.mod.display.version=13-release-the-kraken \
     drm.service.enabled=true \
      
 # Common overlays
