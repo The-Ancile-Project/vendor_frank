@@ -12,4 +12,4 @@ PRODUCT_MODEL := Nexus 7 WiFi
 PRODUCT_MANUFACTURER := ASUS
 
 # Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="grouper" BUILD_FINGERPRINT="google/grouper/grouper:5.0.2/LRX22G/1649326:user/release-keys" PRIVATE_BUILD_DESC="grouper-user 5.0.2 LRX22G 1649326 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="grouper" BUILD_FINGERPRINT="google/grouper/grouper:5.1/LMY47D/1743759:user/release-keys" PRIVATE_BUILD_DESC="grouper-user 5.1 LMY47D 1743759 release-keys"
