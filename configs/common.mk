@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
-    ro.mod.display.version=14-PI \
+    ro.mod.display.version=15-Finally \
     drm.service.enabled=true \
      
 # Common overlays
@@ -130,8 +130,8 @@ PRODUCT_COPY_FILES += \
         
 # APNs
 PRODUCT_COPY_FILES += \
-        $(LOCAL_PATH)/etc/apns-conf-cdma.xml:/system/etc/apns-conf-cdma.xml \
-        $(LOCAL_PATH)/etc/apns-conf.xml:/system/etc/apns-conf.xml 
+        $(LOCAL_PATH)/etc/apns-full-conf.xml:/system/etc/apns-full-conf.xml \
+       
         
 # DRM
 PRODUCT_COPY_FILES += \
