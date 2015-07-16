@@ -143,6 +143,11 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
         $(LOCAL_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         
+#superSU
+PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+        $(LOCAL_PATH)/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+        
 #Setools Android port http://forum.xda-developers.com/android/software/setools-android-sepolicy-inject-t2977563
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/xbin/seinfo:system/xbin/seinfo \
