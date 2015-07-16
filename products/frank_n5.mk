@@ -12,9 +12,6 @@ PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE
 
 # Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="hammerhead" BUILD_FINGERPRINT="google/hammerhead/hammerhead:5.1/LMY47D/1743759:user/release-keys" PRIVATE_BUILD_DESC="hammerhead-user 5.1 LMY47D 1743759 release-keys"
-
-PRODUCT_PACKAGES += \
-     TimeService \
-     OmaDmclient  \
-     shutdownlistener
+PRODUCT_BUILD_PROP_OVERRIDES += \
+BUILD_FINGERPRINT=google/hammerhead/hammerhead:5.1.1/LMY48G/1914015:user/release-keys \
+PRIVATE_BUILD_DESC="hammerhead-user 5.1.1 LMY48G 1914015 release-keys"
