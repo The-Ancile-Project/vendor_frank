@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
-    ro.mod.display.version=mutant-frank-baseline \
+    ro.mod.display.version=Mutant-1.00 \
     drm.service.enabled=true \
      
 # Common overlays
@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES += \
     
 #add n6 audio files
 # Alarms
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/media/audio/alarms/Argon.ogg:system/media/audio/alarms/Argon.ogg \
         $(LOCAL_PATH)/media/audio/alarms/Carbon.ogg:system/media/audio/alarms/Carbon.ogg \
         $(LOCAL_PATH)/media/audio/alarms/Helium.ogg:system/media/audio/alarms/Helium.ogg \
@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/media/audio/alarms/Platinum.ogg:system/media/audio/alarms/Platinum.ogg
    
 # Notifications
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/media/audio/notifications/Ariel.ogg:system/media/audio/notifications/Ariel.ogg \
         $(LOCAL_PATH)/media/audio/notifications/Carme.ogg:system/media/audio/notifications/Carme.ogg \
         $(LOCAL_PATH)/media/audio/notifications/Ceres.ogg:system/media/audio/notifications/Ceres.ogg \
@@ -87,7 +87,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/media/audio/notifications/Titan.ogg:system/media/audio/notifications/Titan.ogg
 
 # Ringtones
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/media/audio/ringtones/Callisto.ogg:system/media/audio/ringtones/Callisto.ogg \
         $(LOCAL_PATH)/media/audio/ringtones/Dione.ogg:system/media/audio/ringtones/Dione.ogg \
         $(LOCAL_PATH)/media/audio/ringtones/Ganymede.ogg:system/media/audio/ringtones/GanyMede.ogg \
@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/media/audio/ringtones/Umbriel.ogg:system/media/audio/ringtones/Umbriel.ogg
 
 # Ui
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/media/audio/ui/audio_end.ogg:system/media/audio/ui/audio_end.ogg \
         $(LOCAL_PATH)/media/audio/ui/audio_initiate.ogg:system/media/audio/ui/audio_initiate.ogg \
         $(LOCAL_PATH)/media/audio/ui/camera_click.ogg:system/media/audio/ui/camera_click.ogg \
@@ -153,5 +153,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/xbin/seinfo:system/xbin/seinfo \
         $(LOCAL_PATH)/xbin/sesearch:system/xbin/sesearch \
         $(LOCAL_PATH)/xbin/sepolicy-inject:system/xbin/sepolicy-inject \
+        
+ -include vendor/frank/configs/common_fingerprints.mk
 
         

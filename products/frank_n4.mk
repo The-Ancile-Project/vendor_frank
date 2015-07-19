@@ -11,11 +11,6 @@ PRODUCT_DEVICE := mako
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
 
-# Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += \
-BUILD_FINGERPRINT=google/occam/mako:5.1.1/LMY48G/1914015:user/release-keys \
-PRIVATE_BUILD_DESC="occam-user 5.1.1 LMY48G 1914015 release-keys"
-
 #Build.prop overide for lte
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.telephony.default_network=10 \

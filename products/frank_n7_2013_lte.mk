@@ -11,9 +11,6 @@ PRODUCT_DEVICE := deb
 PRODUCT_MODEL := Nexus 7 LTE
 PRODUCT_MANUFACTURER := ASUS
 
-# Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="razorg" BUILD_FINGERPRINT="google/razorg/deb:5.1/LMY47D/1743759:user/release-keys" PRIVATE_BUILD_DESC="razorg-user 5.1 LMY47D 1743759 release-keys"
-
 #fmas n7 specific 
 PRODUCT_PROPERTY_OVERRIDES += \
    fmas.spkr_6ch=35,20,110  \

@@ -11,9 +11,6 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Shamu
 PRODUCT_MANUFACTURER := motorola
 
-# Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="shamu" BUILD_FINGERPRINT="google/shamu/shamu:5.1/LMY47D/1743759:user/release-keys" PRIVATE_BUILD_DESC="shamu-user 5.1 LMY47D 1743759 release-keys"
-
 #fmas n6 specific 
 PRODUCT_PROPERTY_OVERRIDES += \
     fmas.spkr_6ch=35,20,110 \

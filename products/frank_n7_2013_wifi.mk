@@ -11,9 +11,6 @@ PRODUCT_DEVICE := flo
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := ASUS
 
-# Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="razor" BUILD_FINGERPRINT="google/razor/flo:5.1/LMY47D/1743759:user/release-keys" PRIVATE_BUILD_DESC="razor-user 5.1 LMY47D 1743759 release-keys"
-
 #fmas n7 specific 
 PRODUCT_PROPERTY_OVERRIDES += \
    fmas.spkr_6ch=35,20,110  \
