@@ -26,8 +26,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
-    ro.mod.display.version=Mutant-1.00 \
+    ro.mod.display.version=Mutant-1.2.0 \
     drm.service.enabled=true \
+    dalvik.vm.image-dex2oat-filter=everything \
+    dalvik.vm.dex2oat-filter=everything
      
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
