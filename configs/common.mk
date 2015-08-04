@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
-    ro.mod.display.version=Mutant-1.3.0 \
+    ro.mod.display.version=Mutant-1.5.0 \
     drm.service.enabled=true \
     dalvik.vm.image-dex2oat-filter=everything \
     dalvik.vm.dex2oat-filter=everything
@@ -37,7 +37,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
 # Needed Packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    libsepol
+    libsepol \
+    aapt
 
 # Enable sip+voip on all targets
 PRODUCT_COPY_FILES += \
